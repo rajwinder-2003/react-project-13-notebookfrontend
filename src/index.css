@@ -1,0 +1,86 @@
+i{
+  cursor: pointer;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  
+  
+}
+/* navbar css */
+.navbar{
+  background-color: #fff;
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #565387 !important;
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.navbar a:hover{
+  color: aqua !important;
+}
+.navbar .nav-item .nav-link .menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+/* main Landing page css */
+
+#text .brand-name{
+  color: aqua;
+}
+#login .form-text{
+
+  color: black;
+}
+#login label{
+  color: black;
+}
+#login .col-10{
+  border: 1px solid black;
+  border-radius: 9px;
+  background-color: rgb(240, 242, 245);
+}
+#header{
+  background-color: #FFD8B1;
+}
+#sinup{
+  background-color: #FFD8B1;
+}
+#sinup .col-10{
+  border: 1px solid black;
+  border-radius: 9px;
+}
+#slide img{
+  /* width: 100 !important; */
+  height: 100 !important; 
+}
+#slide{
+  margin-top: 20px;
+}
+#addnote .col-10{
+  border: 1px solid black;
+  border-radius: 9px;
+}
+#Footer{
+  background-color: #FFD8B1;
+}
+#about{
+  background-color: #FFD8B1;
+}
+#home{
+  background-color: #FFD8B1;
+}
+#item{
+  background-color: rgb(240, 242, 245);
+}
+#oneNote{
+  background-color: #FFD8B1;
+}
